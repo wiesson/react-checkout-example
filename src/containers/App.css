@@ -1,0 +1,76 @@
+.app-title {
+  font-size: 1.5em;
+}
+
+.app-intro {
+  font-size: large;
+}
+
+.app__container {
+  max-width: 40rem;
+  margin: 2rem auto;
+}
+
+.checkout {
+  max-width: 40rem;
+  padding: 2rem;
+  background: #f7f9fa;
+  margin: 2rem auto;
+  border-radius: 4px;
+}
+
+.checkout__navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-close {
+  appearance: none;
+  background: transparent;
+  border: none;
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 700;
+  top: 0;
+  right: 0;
+  opacity: 0.44;
+  color: #061027;
+  outline: none;
+  z-index: 999999;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-close:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.abs {
+  position: absolute;
+}
+
+.hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.link {
+  color: tomato;
+}
+
+.link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.link__form {
+  margin: 1rem 0;
+}
